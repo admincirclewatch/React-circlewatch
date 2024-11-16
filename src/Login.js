@@ -3,7 +3,6 @@ import { Container, Row, Col, Button, Card } from 'react-bootstrap';
 import { FaGoogle } from 'react-icons/fa'; // Only keep Gmail icon
 import axios from 'axios';
 
-
 function Login() {
   // State to manage hover effects
   const [hoverFacebook, setHoverFacebook] = useState(false);
